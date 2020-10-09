@@ -1,0 +1,112 @@
+/*Global*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 17px solid $negro;
+    margin: $margin;
+    background-color: #f4f4f4;
+}
+
+/*Helpers*/
+.wrapper{
+    max-width: 100%;
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    max-width: 100%;
+    width: 100%;
+}
+.border-titulo{
+    border-bottom: 6px solid $negro;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.border{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 20px 0 15px;
+    width: 100%;
+}
+.link-arrow{
+    color: $naranja;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 23px;
+    text-decoration: none;
+    text-transform: $transform;
+    position: $relative;
+}
+.link-arrow:hover{
+    text-decoration: underline;
+}
+.arrow-img{
+    width: 9px;
+    position: $absolute;
+    left: 0;
+    top: 4px;
+}
+
+/*content*/
+#content{
+    max-width: 100%;
+    width: 100%;
+}
+#caja-benefist{
+    list-style: none;
+    margin: $margin;
+    padding: $padding;
+}
+#caja-benefist li{
+    padding-left: 30px;
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.caja{
+    width: 29%;
+    float: $left;
+}
+.caja + .caja{
+    margin-left: 6%;
+}
+.caja-link{
+    color: $negro;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/*-----------------------------------*/
+
+/*Our portfolio*/
+.caja-img img{
+    max-width: 100%;
+    width: 22%;
+    float: $left;
+    background-color: red;
+    margin-left: 10px;
+}
+.caja-img a, .box-img img{
+    display: block;
+}
+
+/*-----------------------------------*/
+
+/*blog*/
+#blog{
+    max-width: 100%;
+    width: 100%;
+}
+#blog-updates{
+    width: 68%;
+    float: $left;
+    margin-right: 8%;
+    margin-bottom: 4%;
+}
+#connect{
+    margin-bottom: 4%;
+    width:22%;
+    float: $right;
+}

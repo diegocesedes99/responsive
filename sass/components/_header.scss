@@ -1,0 +1,40 @@
+/*header*/
+#logo{
+    width: 19%;
+    float: $left;
+}
+#menu{
+    width: 68%;
+    float: $right;
+    position: $absolute;
+}
+#menu-link-email{
+    text-decoration: none;
+    color: $gris_oscuro;
+    font-size: 13px;
+    position: $absolute;
+    top: 0;
+    right: 0;
+}
+#menu-lista{
+    list-style: none;
+    margin:45px 0 0 0;
+    padding: $padding;
+}
+#menu-lista li{
+    float: $left;
+}
+#menu-lista li + li{
+    margin-left: 63px;
+}
+#menu-lista a{
+    text-decoration: none;
+    color: $naranja;
+    font-weight: bold;
+    text-transform: $transform;
+    font-size: 12px;
+}
+#slider img{
+    max-width: 100%;
+    width: 100%;
+}
